@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  <style>
+    [class*="col"] {
+      padding: 1em;
+      background-color: black;
+      border: 2px solid #ffffff;
+      color: white;
+    }
+    .child{
+      background-color: blue;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container-md border">
+    <div class="row">
+      <div class="col-lg-8"> col 1</div>
+      <div class="col-lg-4"> col 2</div>
+    </div>
+  </div>
+  <div class="container border">
+    <div class="row align-items-center" style="height: 500px;">
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+    </div>
+  
+
+  <h2 class="text-center my-5">Gutter</h2>
+  <div class="container">
+    <div class="row gx-4 gy-2">
+      <div class="col-6"><div class="child">1</div></div>
+      <div class="col-6"><div class="child">2</div></div>
+      <div class="col-6"><div class="child">3</div></div>
+      <div class="col-6"><div class="child">4</div></div>
+    </div>
+  </div>
+</div>
+  <script src="/js/bootstrap.js"></script>
+</body>
+</html>
